@@ -8,6 +8,8 @@ import org.hibernate.annotations.CreationTimestamp;
 import org.hibernate.annotations.UpdateTimestamp;
 
 import jakarta.persistence.*;
+
+import java.time.Instant;
 import java.time.LocalDateTime;
 
 @Data
@@ -24,7 +26,7 @@ public class Club {
     private String photoUrl;
     private String content;
     @CreationTimestamp
-    private LocalDateTime createdOn;
+    private Instant createdOn;
     @UpdateTimestamp
-    private LocalDateTime updatedOn;
+    private Instant updatedOn;
 }
