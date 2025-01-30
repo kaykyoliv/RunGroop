@@ -10,7 +10,6 @@ import org.hibernate.annotations.UpdateTimestamp;
 import jakarta.persistence.*;
 
 import java.time.Instant;
-import java.time.LocalDateTime;
 
 @Data
 @NoArgsConstructor
