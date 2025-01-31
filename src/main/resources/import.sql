@@ -1,0 +1,1 @@
+INSERT INTO clubs (title, photo_url, content, created_on, updated_on) VALUES ('Football Club', 'https://e0.pxfuel.com/wallpapers/581/21/desktop-wallpaper-running-background-running.jpg', 'This is a football club.', '2024-01-29 12:00:00', '2024-01-29 12:00:00');

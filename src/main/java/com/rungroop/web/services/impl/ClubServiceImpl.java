@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 @Service
 public class ClubServiceImpl implements ClubService {
-    private ClubRepository clubRepository;
+    private final ClubRepository clubRepository;
 
     @Autowired
     public ClubServiceImpl(ClubRepository clubRepository) {

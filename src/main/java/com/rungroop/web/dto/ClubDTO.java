@@ -24,7 +24,7 @@ public class ClubDTO {
     }
 
     public ClubDTO(Club club){
-        BeanUtils.copyProperties(this, club);
+        BeanUtils.copyProperties(club, this);
     }
 
     public Long getId() {
